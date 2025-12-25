@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1b5e20;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #2e7d32;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    color: #2e7d32;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.expertise-card, .cert-category, .skill-item {
+    background: #f1f8f4;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #2e7d32;
+    border-radius: 4px;
+}
+
+ul {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #1b5e20;
+    color: white;
+    margin-top: 3rem;
+}
+
+.contact-links {
+    margin-top: 1rem;
+}
+
+.contact-links a {
+    color: #2e7d32;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}<script src="script.js"></script>
+</body>
